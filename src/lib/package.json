@@ -1,0 +1,17 @@
+{
+  "name": "@amadeus-hospitality/angular",
+  "version": "v0.0.0-beta.5",
+  "description": "Amadeus Angular Component Library",
+  "main": "index.umd.js",
+  "jsnext:main": "index.esm.js",
+  "module": "index.esm.js",
+  "types": "index.d.ts",
+  "author": "Robert Broden",
+  "license": "ISC",
+  "peerDependencies": {
+    "@angular/core": "^5.1.2",
+    "@angular/common": "5.1.2",
+    "rxjs": "^5.5.6",
+    "zone.js": "^0.8.18"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "angularCompilerOptions": {
+    "strictMetadataEmit": true,
+    "skipTemplateCodegen": true,
+    "flatModuleOutFile": "angular.js",
+    "flatModuleId": "angular"
+  },
+  "compilerOptions": {
+    "declaration": true,
+    "module": "es2015",
+    "target": "es5",
+    "baseUrl": ".",
+    "stripInternal": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "outDir": "../../build",
+    "rootDir": ".",
+    "lib": ["es2015", "dom"],
+    "skipLibCheck": true,
+    "types": []
+  },
+  "files": [
+    "./index.ts"
+  ]
+}
